@@ -1,0 +1,19 @@
+{
+  "name": "fp-roman",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Hunter Trujillo <cryptoquick@gmail.com>",
+  "main": "roman.ts",
+  "scripts": {
+    "start": "ts-node roman.ts",
+    "test": "tsc && ava --verbose"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "dependencies": {
+    "@typed/compose": "^1.0.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.1"
+  }
+}
